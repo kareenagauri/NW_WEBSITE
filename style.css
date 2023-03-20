@@ -81,6 +81,14 @@ a.nav-link:hover{
   margin-top: 75px;
 }
 
+@media(max-width:500px)
+{
+  .png1{
+    max-width: 100%;
+  }
+}
+
+
 
 /*slideshow*/
 
