@@ -15,10 +15,13 @@ a.navbar-brand{
     margin: 0px 500px 5px 30px !important;
 }
 
+
+
 img.logo_img{
     height: 60px;
     width: 300px;
 }
+
 
 a.nav-link{
    padding-left: 20px !important;
@@ -75,10 +78,17 @@ a.nav-link:hover{
     padding-bottom: 100px;
 }
 
+.part3{
+  padding-top: 10
+  0px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
 .png1{
-  width: 1600px;
+  width: 1520px;
   height: 230px;
-  margin-top: 75px;
+  margin-top: 80px;
 }
 
 @media(max-width:500px)
@@ -87,14 +97,47 @@ a.nav-link:hover{
     max-width: 100%;
   }
 }
+.col-sm{
+  text-align: justify !important;
+}
 
+.products{
+  height: 400px;
+  width: 100%;
+}
+
+@media(max-width:500px){
+  .products{
+    height: 300px;
+    padding: 0% !important;
+  }
+}
+
+.p_text{
+  text-align: justify;
+  
+}
+
+.p_namel{
+  text-align: left;
+}
+.p_namer{
+  text-align: right;
+}
+
+@media(max-width:500px)
+{
+  .p_div{
+       padding: 10px 10px 10px 10px;
+  }
+}
 
 
 /*slideshow*/
 
 
 .sshow{
-    padding-bottom: 500px;
+    padding-bottom: 150px;
     
 }
 
