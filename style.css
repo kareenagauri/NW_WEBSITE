@@ -187,6 +187,19 @@ a.nav-link:hover{
   }
 }
 
+@media(max-width: 820px)
+{
+  .png1{
+    width: 821px ;
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) { 
+  .png1{
+    width: 1520px;
+  }
+}
 
 .col-sm{
   text-align: justify !important;
