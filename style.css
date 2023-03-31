@@ -164,7 +164,7 @@ a.nav-link:hover{
 @media(max-width:393px)
 {
   .png1{
-    width: 391px;
+    width: 376px;
   }
 }
 
@@ -549,7 +549,7 @@ textarea {
 }
 
 
-footer{
+/* footer{
   margin-top: 100px !important;
   position: absolute;
   bottom: 0;
@@ -561,8 +561,9 @@ footer{
 
   padding-top: 40px;
   color: #fff;
-}
+} */
 .footer-content{
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -614,6 +615,8 @@ footer{
 }
 
 .footer-bottom{
+  
+  color: #fff;
   background: #000;
   width: 100vw;
   padding: 20px;
@@ -621,7 +624,8 @@ padding-bottom: 40px;
   text-align: center;
 }
 .footer-bottom p{
-float: left;
+  
+float: center;
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
