@@ -230,7 +230,7 @@ a.nav-link:hover{
   }
   .NWV{
     margin-left: 5px;
-    width: 300px;
+    width: 500px;
     height: 300px;
     margin-top: 20px;
   }
@@ -257,14 +257,14 @@ a.nav-link:hover{
 @media(min-width: 760px)
 {
   .png1{
-    width: 769px ;
+    width: 1519px ;
     margin-top: 150px;
     
 
   }
   .NWV{
     margin-left: 10px;
-    width: 320px;
+    width: 500px;
     height: 300px;
     margin-top: 20px;
   }
