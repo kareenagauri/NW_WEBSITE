@@ -5,6 +5,7 @@
 html {
   position: relative;
   min-height: 100%;
+  scroll-behavior: smooth;
 }
 
 
@@ -678,4 +679,8 @@ display: flex;
 margin-top: 10px;
 margin-bottom: 20px;
 }
+}
+
+a{
+  color: #f5f0f2 !important;
 }
