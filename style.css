@@ -13,13 +13,43 @@ body{
     
     min-width: 100%;
     overflow-x: hidden;
-    
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+       
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 
 
 a.navbar-brand{
     margin: 0px 500px 5px 30px !important;
 }
+
+.navigation{
+  
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:1;
+}
+
+.video-container {
+z-index: -100;
+width:100%;
+height:75%;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
+}
+
+#myVideo{
+  width:100%;
+ 
+}
+
 
 @media(max-width:1500px){
   a.navbar-brand{
@@ -68,16 +98,12 @@ img.logo_img{
 a.nav-link{
    padding-left: 20px !important;
    padding-right: 20px !important;
-   color: black !important;
+   color: rgb(255, 251, 251) !important;
 }
 
 a.nav-link:hover{
     color: rgb(121, 193, 241) !important;
-}
-
-#myVideo {
-  width: 100%; 
-  height: 50%;
+    text-decoration:underline;
 }
 
 
